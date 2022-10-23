@@ -4,40 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Drop of Life</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="/css/styles.css"> 
+    <!--Import Monterserrat as a Title Font and Work Sans as a body font-->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet"&gt;> 
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark nb-bg-color">
-        <div class="container">
-            <a href="index.html" class = "navbar-brand"><img src= "img/logo.png" alt = "hand in water" class = "d-inline-block align-text-top w-25"></a>
-        
-
+    <!--Create Collapsible Navbar Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a3cad4;">
+        <div class = container>
+            <a class="navbar-brand" href="index.html"><img src= "img/logo.png" width = 100 height=100></a>
         <!---Hamburger Menu Button-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target ="#navmenu" aria-controls="navbarNavAltMarkup" aria-hidden="false" aria-label="Toggle navigation">
-            <span class ="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-
-        <!---Collapsible navbar menu with custom hover underline CSS animation-->
-        <div class="collpase navbar-collapse" id = "navmenu">
-        <!----Links to hamburger menu button-->
-            <ul class = "navbar-nav ms-auto">
-                <li class = "nav-item">
-                    <a href ="author.html" class ="nav-link hover-underline-animation" id = "nbMenuItem">Our History/What we do</a>
-                </li>
-                <li class = "nav-item">
-                    <a href ="procedure.html" class ="nav-link hover-underline-animation" id = "nbMenuItem">Procedure</a>
-                </li>
-                <li class = "nav-item">
-                    <a href ="results.html" class ="nav-link hover-underline-animation" id = "nbMenuItem">Results</a>
-                </li>
-            </ul>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Our Work</a>
+            </li>
+            <!---Dropdown Menu-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item shift" href="index.html">Our Team</a>
+                  <a class="dropdown-item shift" href="index.html">Get Involved</a>
+                </div>
+              </li>
+          </ul>
         </div>
+        <!---Doante Button-->
+        <form>
+            <button class = "pushable">
+                <span class = "shadow"></span>
+                <span class = "edge"></span>
+                <span class = "front">
+                    Donate Now
+                </span>
+            </button>
+        </form>
+        </div>
+      </nav>
+      <!---Jumbotron Showcase-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="wrapper">
+                <div class="typing-demo">
+                  Water is life.
+                </div>
+            </div>
+          <p class="lead">The Drop of Life foundation has made clean water available to millions across the globe</p>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+
+    <!--Create Cobe globe animation object-->
+      <canvas
+      id="cobe"
+      style="width: 500px; height: 500px; margin-left: 20%; margin-top: 5%; position: relative; bottom: 625px; left: 350px;"
+      width="1000"
+      height="1000"
+    ></canvas>
+    
+    
+    <script type="module">
+      import createGlobe from 'https://cdn.skypack.dev/cobe'
+    
+      let phi = 0
+      let canvas = document.getElementById("cobe")
+    
+      const globe = createGlobe(canvas, {
+        devicePixelRatio: 2,
+        width: 1000,
+        height: 1000,
+        phi: 0,
+        theta: 0,
+        dark: 0.75,
+        diffuse: 1.2,
+        scale: 1.25,
+        mapSamples: 4300,
+        mapBrightness: 12,
+        baseColor: [0.55,0.85, 1],
+        markerColor: [1, 1, 1],
+        glowColor: [1, 1, 1],
+        opacity:0.45,
+        offset: [0, 0],
+        markers: [
+          { location: [37.7595, -122.4367], size: 0 },
+          { location: [40.7128, -74.006], size: 0 },
+        ],
+        onRender: (state) => {
+          // Called on every animation frame.
+          // `state` will be an empty object, return updated params.
+          state.phi = phi
+          phi += 0.01
+        },
+      })
+    </script>
+    <div class = "mission">
+      <div class="row">
+        <div class = "col-sm-6 d-flex align-items-center">
+          <p>"Water is the driving force of all nature."<br><span class ="source">-Leonardo DaVinci</span></p>
+        </div>
+        <div class = "col-sm-6 d-flex align-items-center">
+          <img src = "img/missionphoto.png">
+        </div>
+      </div>
     </div>
-    </nav>
+
+   
 </body>
