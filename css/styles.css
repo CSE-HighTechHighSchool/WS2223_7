@@ -159,21 +159,33 @@
   }
 
 /* CSS for Mission Statement*/
+
+.mission{
+  border-radius: 50%;
+}
 .mission p{
   font-family: 'Work Sans';
   font-size: 80px;
-  padding-left: 70px;
+  padding-left: 90px;
   position: relative;
-  bottom: 600px;
+  
 }
 .source{
   margin-left: 20px;
   font-size: 35px;
 }
 
-.mission img{
+.mission-row{
   position: relative;
   bottom: 600px;
+}
+
+.mission img{
+  position: relative;
+  left: 70px;
+  width: 750px;
+  height: 700px;
+
 }
   
 /*------------- Id CSS ----------- */
