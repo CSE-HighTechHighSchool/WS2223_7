@@ -1,0 +1,191 @@
+
+/*------------- Class CSS ----------- */
+
+/*CSS for navbar*/
+.navbar{
+    width: 100%;
+    padding: 0;
+ }
+ .nav-item{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right:50px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #4D585D;
+
+}
+
+.dropdown-item{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#4D585D
+}
+
+.dropdown-item:active{
+    background-color: #39bac8;
+}
+
+.author{
+    background-color: #e3ebf9;
+}
+
+.about-author{
+    color:rgb(82, 81, 81);
+}
+
+
+.footer{
+    background-color: #c6d9e8;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+h4{
+    font-family: 'Work Sans';
+    font-weight: bold;
+    padding-left: 70px;
+}
+
+.emmeBio{
+    padding-left: 70px;
+}
+
+
+.names{
+    font-family: 'Work Sans';
+    font-weight: bold;
+    padding-left: 70px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.banner {
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=dbd384c5da&attid=0.1&permmsgid=msg-a:r3178868541458061138&th=18414ccb566a9e93&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8oyF0LUOkNZRgO5vEHjV4DFVY3pR8lwvBY-7FpLjlV3YmAP_JBng8EhejSGvJ4kRu67Xr-ogzv2NRyUVNmHEzE5Pt2OltAa1lOw8B6ta9adgJucP2IOMqvH7I&disp=emb&realattid=ii_l9prga0x0");
+    width: 1600px;
+    height: 700px;
+}
+
+
+.background{
+    background-color: #E3F0FA;
+}
+
+/*CSS for 3d "Donate Now" Button*/
+.pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+  }
+  .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: rgba(213, 236, 255, 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+  }
+  .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+      to left,
+      hsl(340deg 100% 16%) 0%,
+      #cff8fc
+      #b4f6fd,
+      hsl(340deg 100% 16%) 100%
+    );
+  }
+  .front {
+    display: block;
+    position: relative;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #4D585D;
+    background: #aae7ee;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+  }
+  .pushable:hover {
+    filter: brightness(110%);
+  }
+  .pushable:hover .front {
+    transform: translateY(-6px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  .pushable:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+  }
+  .pushable:hover .shadow {
+    transform: translateY(4px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  .pushable:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+  }
+  .pushable:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+/*------------- Id CSS ----------- */
+
+
+#title{
+    padding-left: 520px;
+    padding-top: 300px;
+    font-size: 100px;
+    color: white;
+}
+
+#title2{
+    padding-left: 670px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#nidhiBio{
+    padding-left: 70px;
+}
+
+
+/*------------- Underline Animation CSS ----------- */
