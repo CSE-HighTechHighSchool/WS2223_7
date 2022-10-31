@@ -57,7 +57,7 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     font-size: 8em;
   }
   
@@ -159,9 +159,8 @@
   }
 
 /* CSS for Mission Statement*/
-
-.mission{
-  border-radius: 50%;
+div.mission{
+  
 }
 .mission p{
   font-family: 'Work Sans';
@@ -180,14 +179,24 @@
   bottom: 600px;
 }
 
-.mission img{
+#description-image{
+  width:200px;
+  height:200px;
   position: relative;
-  left: 70px;
-  width: 750px;
-  height: 700px;
-
+  bottom: 35rem;
+  left:45%;
 }
-  
+
+#foundation-title{
+  bottom: 35rem;
+  font-family: 'Montserrat', sans-serif;
+  left:10%;
+}
+
+.description#description-text{
+  font-size: 0.5em;
+  color:blue;
+}
 /*------------- Id CSS ----------- */
 
 
