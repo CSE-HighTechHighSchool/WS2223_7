@@ -52,7 +52,11 @@ h1{
 h4{
     font-family: 'Work Sans';
     font-weight: bold;
-    padding-left: 70px;
+    font-size: 27px;
+}
+
+p{
+    font-size: 22px;
 }
 
 .emmeBio{
@@ -60,16 +64,15 @@ h4{
 }
 
 
-.names{
+h3{
     font-family: 'Work Sans';
     font-weight: bold;
-    padding-left: 70px;
-    padding-top: 30px;
     text-transform: uppercase;
+    font-size: 33px;
 }
 
 .banner {
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=dbd384c5da&attid=0.1&permmsgid=msg-a:r3178868541458061138&th=18414ccb566a9e93&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8oyF0LUOkNZRgO5vEHjV4DFVY3pR8lwvBY-7FpLjlV3YmAP_JBng8EhejSGvJ4kRu67Xr-ogzv2NRyUVNmHEzE5Pt2OltAa1lOw8B6ta9adgJucP2IOMqvH7I&disp=emb&realattid=ii_l9prga0x0");
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=dbd384c5da&attid=0.1&permmsgid=msg-a:r8966520105269520456&th=1842b7b60841da0e&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-LWcbdPncKNM7wiyDKbl9kzf7_ilntBuNnY2ypdVBO_EKjAn7XPmX9ltxGj5Z73ypBDwd_2tVVIVKZENI55v-JAD_3_CUuf-3Bjo77J73h8-MaMEwwtZqQHws&disp=emb&realattid=ii_l9w2135r0");
     width: 1600px;
     height: 700px;
 }
@@ -77,6 +80,16 @@ h4{
 
 .background{
     background-color: #E3F0FA;
+}
+
+.footer{
+    background-color:  #a3cad4;
+}
+
+.lead{
+    color:  #4D585D;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 /*CSS for 3d "Donate Now" Button*/
@@ -187,5 +200,7 @@ h4{
     padding-left: 70px;
 }
 
-
+#rat-img{
+    top: 15px;
+}
 /*------------- Underline Animation CSS ----------- */
