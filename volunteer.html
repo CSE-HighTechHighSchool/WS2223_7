@@ -37,7 +37,7 @@
                  About Us
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item shift" href="aboutus.html">Our Team</a>
+                  <a class="dropdown-item shift" href="members.html">Our Team</a>
                   <a class="dropdown-item shift" href="volunteer.html">Get Involved</a>
                 </div>
               </li>
@@ -54,76 +54,28 @@
             </button>
         </form>
         </div>
-      </nav>
-      <!---Jumbotron Showcase-->
-      <div class="jumbotron jumbotron-fluid">
+    </nav>
+
+    <section class="volunteer">
         <div class="container">
-            <div class="wrapper">
-                <div class="typing-demo">
-                  Water is life.
-                </div>
+            <div class="row text-center">
+                <h1>
+                    Volunteer Today!
+                </h1>
             </div>
-          <p class="lead">The Drop of Life foundation has made clean water available to millions across the globe</p>
+            <br> <!--Line break-->
+            <div class="row">
+                <label for="volunteer">Please tell us a bit about yourself:</label>
+                    <input type="text" class="form-control" id="volunteer-form" name="volunteer">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
         </div>
-      </div>
+    </section>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
     crossorigin="anonymous"></script>
-
-    <!--Create Cobe globe animation object-->
-      <canvas
-      id="cobe"
-      style="width: 500px; height: 500px; margin-left: 20%; margin-top: 5%; position: relative; bottom: 625px; left: 350px;"
-      width="1000"
-      height="1000"
-    ></canvas>
-    
-    
-    <script type="module">
-      import createGlobe from 'https://cdn.skypack.dev/cobe'
-    
-      let phi = 0
-      let canvas = document.getElementById("cobe")
-    
-      const globe = createGlobe(canvas, {
-        devicePixelRatio: 2,
-        width: 1000,
-        height: 1000,
-        phi: 0,
-        theta: 0,
-        dark: 0.75,
-        diffuse: 1.2,
-        scale: 1.25,
-        mapSamples: 4300,
-        mapBrightness: 12,
-        baseColor: [0.55,0.85, 1],
-        markerColor: [1, 1, 1],
-        glowColor: [1, 1, 1],
-        opacity:0.45,
-        offset: [0, 0],
-        markers: [
-          { location: [37.7595, -122.4367], size: 0 },
-          { location: [40.7128, -74.006], size: 0 },
-        ],
-        onRender: (state) => {
-          // Called on every animation frame.
-          // `state` will be an empty object, return updated params.
-          state.phi = phi
-          phi += 0.01
-        },
-      })
-    </script>
-    <div class = "mission">
-      <div class="row">
-        <div class = "col-sm-6 d-flex align-items-center">
-          <p>"Water is the driving force of all nature."<br><span class ="source">-Leonardo DaVinci</span></p>
-        </div>
-        <div class = "col-sm-6 d-flex align-items-center">
-          <img src = "img/missionphoto.png">
-        </div>
-      </div>
-    </div>
-
    
 </body>
