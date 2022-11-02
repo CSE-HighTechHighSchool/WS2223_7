@@ -2,22 +2,22 @@
 
 /*CSS for navbar*/
 .navbar{
-  width: 100% !important;
-  padding: 0 !important;
+  width: 100% /*!important*/;
+  padding: 0 /*!important*/;
 }
 
 .nav-item{
-  margin-right: 50px !important;
-  font-size: 20px !important;
-  margin-left: 50px !important;
-  font-size: 25px !important;
+  margin-right: 50px /*!important*/;
+  font-size: 20px /*!important*/;
+  margin-left: 50px /*!important*/;
+  font-size: 25px /*!important*/;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-
+  color: #4D585D;
 }
 
 .dropdown-item{
-  font-size: 20px !important;
+  font-size: 20px /*!important*/;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color:#4D585D
@@ -26,14 +26,92 @@
 .dropdown-item:active{
   background-color: #39bac8;
 }
+
+.author{
+    background-color: #e3ebf9;
+}
+
+.about-author{
+    color: #4D585D;
+}
+
+
+.footer{
+    background-color: #c6d9e8;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+h4{
+    font-family: 'Work Sans';
+    font-weight: bold;
+    font-size: 27px;
+}
+
+p{
+    font-size: 22px;
+}
+
+a{
+  text-decoration: none;
+  color: #4D585D;
+}
+
+.emmeBio{
+    padding-left: 70px;
+}
+
+
+h3{
+    font-family: 'Work Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+.banner {
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=dbd384c5da&attid=0.1&permmsgid=msg-a:r8966520105269520456&th=1842b7b60841da0e&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-LWcbdPncKNM7wiyDKbl9kzf7_ilntBuNnY2ypdVBO_EKjAn7XPmX9ltxGj5Z73ypBDwd_2tVVIVKZENI55v-JAD_3_CUuf-3Bjo77J73h8-MaMEwwtZqQHws&disp=emb&realattid=ii_l9w2135r0");
+    width: 1600px;
+    height: 700px;
+}
+
+
+.background{
+    background-color: #E3F0FA;
+}
+
+.footer{
+    background-color:  #a3cad4;
+}
+
+.lead{
+    color:  #4D585D;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.caption{
+  position: relative;
+  bottom: 48rem;
+  right: 20rem;
+  color: #E3F0FA;
+  font-size: 120px;
+}
+
 /*CSS for text*/
 .history{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color:#4D585D
 }
 .work{
-  font-family: 'Montserrat', sans-serif;
-  color:#4D585D
+  font-family: 'Work Sans', sans-serif;
+  color:#4D585D;
 }
 /*CSS for jumbotron showcase*/
 .jumbotron{
@@ -49,7 +127,7 @@
 }
 
 p.lead{
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.75em;
   text-align: center;
   position: relative;
@@ -123,7 +201,7 @@ p.lead{
   position: relative;
   padding: 12px 42px;
   border-radius: 12px;
-  font-size: 25px !important;
+  font-size: 25px /*!important*/;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: #4D585D;
@@ -183,7 +261,28 @@ bottom: 600px;
 }
 
 /*------------- Id CSS ----------- */
+#title{
+  padding-left: 520px;
+  padding-top: 300px;
+  font-size: 100px;
+  color: white;
+}
 
+#title2{
+  padding-left: 670px;
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#nidhiBio{
+  padding-left: 70px;
+}
+
+#rat-img{
+  top: 15px;
+}
 
 
 /*------------- Underline Animation CSS ----------- */
