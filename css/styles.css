@@ -301,6 +301,12 @@ iframe{
       );
     }
   }
+  
+  #impact-img{
+    position: relative;
+    right: 600px;
+    bottom: 350px;
+  }
 /*------------- Id CSS ----------- */
 
 
