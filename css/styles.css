@@ -315,13 +315,13 @@ iframe{
     position: relative;
   }
   .people-bubble{
-    bottom:120rem;
-    right:50rem;
-    z-index:3
+    bottom:150rem;
+    right:20rem;
+    z-index:3;
   }
   .people-description{
-    bottom:147.5rem;
-    right:21.5rem;
+    bottom:150rem;
+    right:48.5rem;
     z-index:5;
     opacity:0;
   }
@@ -332,15 +332,30 @@ iframe{
   .community-bubble{
     bottom: 100rem;
     right: 20rem;
+    z-index:3;
+    opacity:1;
   }
+  .community-description{
+    bottom:127rem;
+    left:8.75rem;
+    z-index:2;
+    opacity:1;
+  }
+  .community-bubble:hover{
+    opacity:0;
+  }
+
   .mission-bubble{
     bottom: 100rem;
     left: 40rem;
+    z-index:3;
   }
   .volunteers-bubble{
     bottom: 120rem;
     left: 72rem;
+    z-index:3;
   }
+
    /* Appear on Scroll Animation*/  
   .reveal{
     position: relative;
