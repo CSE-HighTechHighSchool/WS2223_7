@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/styles.css"> 
     <!--Import Monterserrat as a Title Font and Work Sans as a body font-->
    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet"&gt;> 
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Create Collapsible Navbar Menu-->
@@ -81,12 +82,13 @@
     
     
     <script src="js/globe.js" type="module"></script>
-    
+
+    <!--Mission Statement — Quote and Image -->
     <div class = "mission">
       <div class="row mission-row">
         <div class = "col-sm-6 d-flex align-items-center" style = "background-color: #F1F6FD">
             <section>
-                <div class="content">
+                <div class="content revealside">
                   <h2>Water</h2>
                   <h2>Water</h2>
                 </div>
@@ -97,6 +99,8 @@
           <img src = "img/missionphoto.png">
         </div>
       </div>
+
+      <!--Description — Logo, Text, and Video -->
       <div class = "description">
         <img id = "description-image" src ="img/logo.png">
         <br>
@@ -119,7 +123,17 @@
       </div>
       <iframe width="1280" height="720" src="https://www.youtube.com/embed/BCHhwxvQqxg" frameborder="0" allowfullscreen controls></iframe>
     </div>
+
+    <!--Impact - Bubbls with Statistics -->
    <div class = "impact container">
     <img  id = "impact-img" src = "img/impactbackground.png">
+    <img class = "image-bubbles mission-bubble reveal" src = "img/mission.png">
+    <img class = "image-bubbles community-bubble reveal" src = "img/communities.png">
+    <img class = "image-bubbles volunteers-bubble reveal" src = "img/volunteer.png">
+    <img class = "image-bubbles people-bubble reveal" src = "img/people.png">
+    <img class = "image-bubbles people-description" src = "img/peopledescription.png">
+    <script src="js/reveal.js" type="module"></script>
+    <script src="js/revealside.js" type="module"></script>
    </div>
+
 </body>
