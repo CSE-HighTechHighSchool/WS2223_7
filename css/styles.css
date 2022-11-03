@@ -32,12 +32,7 @@
 }
 
 .about-author{
-    color: #4D585D;
-}
-
-
-.footer{
-    background-color: #c6d9e8;
+  color:rgb(82, 81, 81);
 }
 
 
@@ -76,7 +71,7 @@ h3{
 }
 
 .banner {
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=dbd384c5da&attid=0.1&permmsgid=msg-a:r8966520105269520456&th=1842b7b60841da0e&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-LWcbdPncKNM7wiyDKbl9kzf7_ilntBuNnY2ypdVBO_EKjAn7XPmX9ltxGj5Z73ypBDwd_2tVVIVKZENI55v-JAD_3_CUuf-3Bjo77J73h8-MaMEwwtZqQHws&disp=emb&realattid=ii_l9w2135r0");
+    background-image: url("/img/aboutus.jpg");
     width: 1600px;
     height: 700px;
 }
@@ -87,14 +82,9 @@ h3{
 }
 
 .footer{
-    background-color:  #a3cad4;
+  background-color: #a3cad4;
 }
 
-.lead{
-    color:  #4D585D;
-    font-family: 'Montserrat', sans-serif;
-    
-}
 
 .caption{
   position: relative;
@@ -102,6 +92,17 @@ h3{
   right: 20rem;
   color: #E3F0FA;
   font-size: 120px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.joinUs{
+  background-color: white;
 }
 
 /*CSS for text*/
@@ -262,15 +263,21 @@ bottom: 600px;
 
 /*------------- Id CSS ----------- */
 #title{
-  padding-left: 520px;
-  padding-top: 300px;
+  padding-left: 460px;
+  padding-top: 250px;
   font-size: 100px;
   color: white;
 }
 
+#titleT{
+  padding-top: 35px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 #title2{
-  padding-left: 670px;
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
 
@@ -283,6 +290,23 @@ bottom: 600px;
 #rat-img{
   top: 15px;
 }
+
+#volunteer{
+  padding-top: 50px;
+  width: 58%;
+}
+
+#rebecca{
+  padding-left: 40px;
+}
+
+#lead{
+  color:  #4D585D;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
 
 
 /*------------- Underline Animation CSS ----------- */
