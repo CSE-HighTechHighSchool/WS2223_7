@@ -368,19 +368,39 @@ iframe{
     opacity: 1;
   }
 
-  footer h6{
-    font-size:30px;
-    font-family: 'Montserrat';
-    text-decoration: none;
+ /* CSS for Donate Section*/ 
+  #donate-title{
+    position: relative;
+    bottom: 1400px;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 32%;
+    margin-right:32%;
   }
 
-  footer.copyright{
-    font-family: 'Work Sans';
+  .donate-image{
+    position: relative;
+    bottom: 1350px;
+    margin-left: 8%;
+    margin-right: 8%;
   }
-  footer section.footerinfo{
-    font-family:'Work Sans';
-    font-size: 20px;
-    color: blue;
+
+  p.donate-statement{
+    font-size: 40px;
+    font-family: 'Work Sans';
+    position: relative;
+    bottom: 1300px;
+    margin-left: 18%;
+    margin-right:18%;
+
+  }
+
+  .donate-arrow{
+    position: relative!important;
+    bottom: 1300px!important;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 40px;
   }
 /*------------- Id CSS ----------- */
 
