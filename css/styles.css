@@ -314,6 +314,7 @@ iframe{
     height: 35%;
     position: relative;
   }
+
   .people-bubble{
     bottom:150rem;
     right:20rem;
@@ -328,21 +329,20 @@ iframe{
   .people-description:hover{
     opacity:1;
   }
-
+  
   .community-bubble{
     bottom: 100rem;
     right: 20rem;
     z-index:3;
-    opacity:1;
   }
   .community-description{
     bottom:127rem;
     left:8.75rem;
-    z-index:2;
-    opacity:1;
+    z-index:5;
+    opacity: 0!important;
   }
-  .community-bubble:hover{
-    opacity:0;
+  .community-description:hover{
+    opacity: 1!important;
   }
 
   .mission-bubble{
@@ -350,11 +350,13 @@ iframe{
     left: 40rem;
     z-index:3;
   }
+
   .volunteers-bubble{
-    bottom: 120rem;
-    left: 72rem;
+    bottom: 122rem;
+    left: 40rem;
     z-index:3;
   }
+
 
    /* Appear on Scroll Animation*/  
   .reveal{
