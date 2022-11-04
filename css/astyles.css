@@ -1,5 +1,84 @@
-/*------------- Class CSS ----------- */
+/*------------- Tag CSS ----------- */
 
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Work Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 33px;
+}
+
+h4{
+  font-family: 'Work Sans';
+  font-weight: bold;
+  font-size: 27px;
+}
+
+
+a{
+  text-decoration: none;
+  color: #4D585D;
+}
+
+p{
+  font-size: 22px;
+  color:rgb(82, 81, 81)
+}
+
+/*------------- Class CSS ----------- */
+.author{
+  background-color: #e3ebf9;
+}
+
+.about-author{
+color:rgb(82, 81, 81);
+}
+
+.emmeBio{
+  padding-left: 70px;
+}
+
+
+.banner {
+  background-image: url("/img/aboutus.jpg");
+  width: 1440px;
+  height: 700px;
+}
+
+
+.background{
+  background-color: #E3F0FA;
+}
+
+.footer{
+background-color: #a3cad4;
+font-size: 25px;
+}
+
+
+.caption{
+position: relative;
+bottom: 48rem;
+right: 20rem;
+color: #E3F0FA;
+font-size: 120px;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.joinUs{
+background-color: white;
+}
 
 /*CSS for navbar*/
 .navbar{
@@ -28,85 +107,7 @@
   background-color: #39bac8;
 }
 
-.author{
-    background-color: #e3ebf9;
-}
 
-.about-author{
-  color:rgb(82, 81, 81);
-}
-
-
-h1{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-
-h4{
-    font-family: 'Work Sans';
-    font-weight: bold;
-    font-size: 27px;
-}
-
-p{
-    font-size: 22px;
-    color:rgb(82, 81, 81)
-}
-
-a{
-  text-decoration: none;
-  color: #4D585D;
-}
-
-.emmeBio{
-    padding-left: 70px;
-}
-
-
-h3{
-    font-family: 'Work Sans';
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 33px;
-}
-
-.banner {
-    background-image: url("/img/aboutus.jpg");
-    width: 1440px;
-    height: 700px;
-}
-
-
-.background{
-    background-color: #E3F0FA;
-}
-
-.footer{
-  background-color: #a3cad4;
-  font-size: 25px;
-}
-
-
-.caption{
-  position: relative;
-  bottom: 48rem;
-  right: 20rem;
-  color: #E3F0FA;
-  font-size: 120px;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.joinUs{
-  background-color: white;
-}
 
 /*CSS for text*/
 .history{
@@ -265,6 +266,8 @@ bottom: 600px;
 }
 
 /*------------- Id CSS ----------- */
+
+/* CSS formatting About Us Title*/
 #title{
   padding-left: 460px;
   padding-top: 250px;
@@ -272,6 +275,7 @@ bottom: 600px;
   color: white;
 }
 
+/* CSS formatting Our Team Title*/
 #titleT{
   padding-top: 35px;
   font-size: 50px;
@@ -286,23 +290,29 @@ bottom: 600px;
 
 }
 
+/* CSS for Nidhi's Bio*/
 #nidhiBio{
   padding-left: 70px;
 }
 
+
+/* CSS for Rebecca's Image*/
 #rat-img{
   top: 15px;
 }
 
+/* CSS for Volunteer Image*/
 #volunteer{
   padding-top: 50px;
   width: 58%;
 }
 
+/* CSS for shifting Rebecca's Bio*/
 #rebecca{
   padding-left: 40px;
 }
 
+/* CSS for footer text*/
 #lead{
   color:  #4D585D;
   font-family: 'Montserrat', sans-serif;
