@@ -77,12 +77,6 @@ h3{
     height: 700px;
 }
 
-.banner2 {
-  background-image: url("/img/history.jpg");
-  width: 1440px;
-  height: 700px;
-}
-
 
 .background{
     background-color: #E3F0FA;
@@ -276,21 +270,7 @@ bottom: 600px;
   color: white;
 }
 
-#title3{
-  padding-top: 250px;
-  padding-left: 90px;
-  font-size: 90px;
-  color: white;
-}
-
 #titleT{
-  padding-top: 35px;
-  font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-#titleH{
   padding-top: 35px;
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -328,6 +308,3 @@ bottom: 600px;
 }
 
 
-
-
-/*------------- Underline Animation CSS ----------- */
