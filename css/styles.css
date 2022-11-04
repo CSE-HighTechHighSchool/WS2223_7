@@ -1,5 +1,6 @@
 /*------------- Class CSS ----------- */
 
+
 /*CSS for navbar*/
 .navbar{
   width: 100% /*!important*/;
@@ -84,6 +85,7 @@ h3{
 
 .footer{
   background-color: #a3cad4;
+  font-size: 25px;
 }
 
 
