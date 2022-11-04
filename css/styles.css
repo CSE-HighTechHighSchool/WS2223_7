@@ -402,6 +402,35 @@ iframe{
     margin-right: 45%;
     font-size: 40px;
   }
+
+  .banner {
+    background-image: url("/img/historybanner.jpg");
+    width: 2000px;
+    height: 700px;
+}
+
+#title{
+  padding-left: 390px;
+  padding-top: 250px;
+  font-size: 100px;
+  color: white;
+  font-family: 'Montserrat';
+}
+.donate-image{
+  width: 700px;
+  height:450px;
+  position: relative;
+  top: 100px;
+}
+
+.work-description{
+  font-family: 'Work Sans';
+  font-size: 38px;
+  align-items: center;
+  margin-left: 15%;
+  position: relative;
+  top:120px;
+}
 /*------------- Id CSS ----------- */
 
 
