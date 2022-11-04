@@ -269,7 +269,7 @@ p#description-text{
   .link--arrowed {
     display: inline-block;
     height: 2rem;
-    line-height: 2rem;
+    line-height: 2em;
   }
   .link--arrowed .arrow-icon {
     position: relative;
@@ -316,48 +316,45 @@ iframe{
   }
 
   .people-bubble{
-    bottom:150rem;
-    right:20rem;
-    z-index:3;
+    bottom:104rem;
+    right:50rem;
+    z-index:3
   }
   .people-description{
-    bottom:150rem;
-    right:48.5rem;
+    bottom:135.5rem;
+    right:21.5rem;
     z-index:5;
     opacity:0;
   }
   .people-description:hover{
     opacity:1;
   }
-  
   .community-bubble{
-    bottom: 100rem;
+    bottom: 84rem;
     right: 20rem;
-    z-index:3;
   }
-  .community-description{
-    bottom:127rem;
-    left:8.75rem;
-    z-index:5;
-    opacity: 0!important;
-  }
-  .community-description:hover{
-    opacity: 1!important;
-  }
-
   .mission-bubble{
-    bottom: 100rem;
+    bottom: 84rem;
     left: 40rem;
-    z-index:3;
   }
-
   .volunteers-bubble{
-    bottom: 122rem;
-    left: 40rem;
-    z-index:3;
+    bottom: 104rem;
+    left: 72rem;
   }
-
-
+  .impact p{
+    font-size:50px;
+    font-family: 'Work Sans';
+    position: relative;
+    bottom: 1350px;
+    text-align: center;
+  }
+  .work-arrow{
+    position: relative!important;
+    bottom: 1375px!important;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 35px;
+  }
    /* Appear on Scroll Animation*/  
   .reveal{
     position: relative;
