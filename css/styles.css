@@ -367,7 +367,9 @@ iframe{
     transform: translateY(0);
     opacity: 1;
   }
-
+  .footer{
+    background-color: #c6d9e8;
+}
 
 /*------------- Id CSS ----------- */
 
