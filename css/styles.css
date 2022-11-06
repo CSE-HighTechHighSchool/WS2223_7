@@ -404,23 +404,25 @@ iframe{
   }
 
   .banner {
-    background-image: url("/img/historybanner.jpg");
+    background-image: url("/img/historybanner.jpg"); 
     width: 2000px;
     height: 700px;
 }
 
+
 #title{
-  padding-left: 390px;
+  padding-left: 625px;
   padding-top: 250px;
   font-size: 100px;
   color: white;
   font-family: 'Montserrat';
+  text-transform: uppercase;
 }
-.donate-image{
+.work-image{
   width: 700px;
   height:450px;
   position: relative;
-  top: 100px;
+  bottom: 100px;
 }
 
 .work-description{
@@ -429,8 +431,42 @@ iframe{
   align-items: center;
   margin-left: 15%;
   position: relative;
-  top:120px;
+  bottom:100px;
 }
+#work-title{
+  position: relative;
+  bottom: 55px;
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 35%;
+  margin-right:35%;
+}
+
+.statistics img{
+  position: relative;
+  top: 400px;
+  left: 200px;
+}
+
+.people{
+  position: relative;
+  display: inline-block;
+  right:1350px;
+  top: 450px;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  color:#64aeb7;
+}
+.gallons{
+  position: relative;
+  display: inline-block;
+  left:900px;
+  top: 115px;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  color:#64aeb7;
+}
+
 /*------------- Id CSS ----------- */
 
 
