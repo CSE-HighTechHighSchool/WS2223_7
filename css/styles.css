@@ -466,6 +466,15 @@ iframe{
   font-size: 60px;
   color:#64aeb7;
 }
+.wells{
+  position: relative;
+  display: inline-block;
+  left:1222px;
+  top: 115px;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  color:#64aeb7;
+}
 
 /*------------- Id CSS ----------- */
 
