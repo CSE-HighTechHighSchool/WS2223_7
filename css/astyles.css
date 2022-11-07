@@ -290,27 +290,12 @@ bottom: 600px;
 
 }
 
-/* CSS for Nidhi's Bio*/
-#nidhiBio{
-  padding-left: 70px;
-}
-
-
-/* CSS for Rebecca's Image*/
-#rat-img{
-  top: 15px;
-}
-
 /* CSS for Volunteer Image*/
 #volunteer{
   padding-top: 50px;
   width: 58%;
 }
 
-/* CSS for shifting Rebecca's Bio*/
-#rebecca{
-  padding-left: 40px;
-}
 
 /* CSS for footer text*/
 #lead{
@@ -319,4 +304,111 @@ bottom: 600px;
   
 }
 
+/* CSS for Nidhi's image sliding in from left*/
 
+#slide {
+  position: relative;
+  left: -100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 30; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
+/* CSS for Nidhi's bio sliding in from right*/
+#slide1 {
+  position: relative;
+  left: 100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes slide1 {
+  100% { right: 30; }
+}
+
+@keyframes slide1 {
+  100% { right: 0; }
+}
+
+/* CSS for Rebecca's bio sliding in from left*/
+#slide2 {
+  position: relative;
+  left: -100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1.8s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1.8s;
+}
+
+@-webkit-keyframes slide2 {
+  100% { left: 30; }
+}
+
+@keyframes slide2 {
+  100% { left: 0; }
+}
+
+/* CSS for Rebecca's photo sliding in from right*/
+#slide3 {
+  position: relative;
+  left: 100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1.8s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1.8s;
+}
+
+@-webkit-keyframes slide3 {
+  100% { right: 30; }
+}
+
+@keyframes slide3 {
+  100% { right: 0; }
+}
+
+/* CSS for Emme's image sliding in from left*/
+#slide4 {
+  position: relative;
+  left: -100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2.6s;
+  animation: slide 0.5s forwards;
+  animation-delay: 2.6s;
+}
+
+@-webkit-keyframes slide4 {
+  100% { left: 30; }
+}
+
+@keyframes slide4 {
+  100% { left: 0; }
+}
+
+/* CSS for Emme's bio sliding in from right*/
+#slide5 {
+  position: relative;
+  left: 100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2.6s;
+  animation: slide 0.5s forwards;
+  animation-delay: 2.6s;
+}
+
+@-webkit-keyframes slide5 {
+  100% { right: 30; }
+}
+
+@keyframes slide5 {
+  100% { right: 0; }
+}
