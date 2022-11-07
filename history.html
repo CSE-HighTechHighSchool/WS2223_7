@@ -9,7 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/css/styles.css"> 
+    <link rel="stylesheet" href="/css/history.css"> 
     <link rel="stylesheet" href="/css/arrow.css"> 
     <!--Import Monterserrat as a Title Font and Work Sans as a body font-->
    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet"&gt;> 
@@ -44,61 +44,126 @@
               </li>
           </ul>
         </div>
-        <!---Doante Button-->
-        <form>
-            <button class = "pushable">
-                <span class = "shadow"></span>
-                <span class = "edge"></span>
-                <span class = "front">
-                    <a href="donate.html">Donate Now</a>
-                </span>
-            </button>
-        </form>
-        </div>
-      </nav>
+        
+      <!---Donate Button-->
+    <form>
+        <button class = "pushable">
+            <span class = "shadow"></span>
+            <span class = "edge"></span>
+            <span class = "front">
+                Donate Now
+            </span>
+        </button>
+    </form>
+    </div>
+  </nav>
 
-    <!--Charity History-->
-    <section class="history">
-        <div class="container">
-            <div class="row text-center">
-                <h1>
-                    History of Our Charity
-                </h1>
-            </div>
-            <br> <!--Line break-->
-            <div class="row">
-                <div class="col-sm-7 d-flex p-2">
-                    <p>
-                        Our founders were three young girls who had a passion for engineering and the desire to make a lasting impact in the world.
-                        One glaring issue then an now is a shortage of clean water around the world. <!--insert statistic--> 
-                    </p>
-                </div>
-                <div class="col-sm-5 d-flex p-2">
-                    <img class="img-fluid" src="./img/flint_michigan.jpeg" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 d-flex p-2">
-                    <img class="img-fluid" src="./img/water_tap.png" alt="">
-                </div>
-                <div class="col-sm-6 d-flex p-2">
-                    <p>
-                        From then, we've grown into a sizeable community of volunteers and have taken a large step in providing clean water to all.
-                        We hope that others around the world understand our cause and rally against the global water shortage with us.
-                    </p>
-                </div>
-            </div>
-            <div class="row text-center">
-                <a href="work.html">
-                    See where we are now
-                    <i class="bi bi-chevron-right" id="arrow1"></i><i class="bi bi-chevron-right" id="arrow1"></i>
-                </a>
-                <!--sequence of arrows w/color animation-->
-            </div>
+       <!---Banner-->
+       <section class = "banner2">
+      <div class="banner2">
+        <div>
+          <h1 id = "title3">Our Mission/History</h1>
+        </div>  
+      </div>
+      </section>
+
+      <!--Mission Statement-->
+  <section class="mission">
+    <div class="containers">
+        <div class="row text-center">
+            <h2 id = "titleH">
+                Our Mission
+            </h2>
+            
+            <h3 id = "blockquote"><br><em>To improve the health and overall lives of people in the world’s most impoverished communities through providing access to safe drinking water, sanitation, and hygiene education.</em></h3>
         </div>
+        <br> <!--Line break-->
+    </div>
+</section> 
+
+  <!--Title of next section-->
+  <section class="history">
+    <div class="containers">
+        <div class="row text-center">
+            <h2 id = "titleH">
+                Our Story
+            </h2>
+        </div>
+        <br> <!--Line break-->
+    </div>
+</section> 
+   
+ <!--Timeline-->
+    <section> 
+      <div class="timeline">
+        <!--First Element of Timeline (Left)-->
+        <div class="container left" id = "time">
+          <div class="date">Dec '20</div>
+          <i class="icon fa fa-home"></i>
+          <div class="content">
+            <h2>Initial Brainstorming</h2>
+            <p>
+              Our founders were three young girls who had a passion for engineering and the desire to make a lasting impact in the world.
+              One glaring issue then an now is a shortage of clean water around the world. They decided to found a charity to bring what the believed was a basic necesity to less fortunate people around the world.
+            </p>
+            <br>
+            <img src = "/img/brainstorm.jpg" alt = "">
+          </div>
+        </div> 
+        <!--Second Element of Timeline (Right)-->
+        <div class="container right" id = "time">
+          <div class="date">Jun '21</div>
+          <i class="icon fa fa-gift"></i>
+          <div class="content">
+            <h2 class = "impact">Establishment</h2>
+            <p class = "impact">
+              Drop of Life was officially established and approved on June 20, 2021. We got to work immediately, starting our first projects in the United States and Mexico. Our sponsors helped fund water, sanitation, and hygiene programs for rural communities. 
+            </p>
+            <img class = "impact" id = "impact-img" src = "/img/establishment.jpg" alt = "">
+          </div>
+        </div> 
+        <!--Third Element of Timeline (Left)-->
+        <div class="container left" id = "time">
+          <div class="date">Apr '22</div>
+          <i class="icon fa fa-user"></i>
+          <div class="content">
+            <h2>Recognition</h2>
+            <p>
+              In April, we were honored to receive the 2022 Best New Charity Award from the Charity Times Awards and the Third Sector Awards. This helped us gain recognition, and expand our projects to Latin America, Sub-Saharan Africa, and Asia.
+            </p>
+            <br>
+            <img src = "/img/awards.png" alt = "">
+          </div>
+        </div>
+        <!--Fourth Element of Timeline (Right)-->
+        <div class="container right" id = "time">
+          <div class="date">Pres.</div>
+          <i class="icon fa fa-running"></i>
+          <div class="content">
+            <h2 class = "impact">Our Growing Impact</h2>
+            <p class = "impact">
+              From then, we've grown into a sizeable community of volunteers and have taken a large step in providing clean water to all. We operate in multiple countries and have thousands of volunteers. Ever since 2020, we've been working towards one goal, and one goal only: ending the global water crisis. 
+                    We hope that others around the world understand our cause and rally against the global water shortage with us.
+            </p>
+            <img class = "impact" id = "impact-img" src = "/img/impact.jpg" alt = "">
+          </div>
+        </div>
+        </div>
+      </div>
     </section>
 
+    <br><br>
+
+
     <!--Footer-->
+ <footer class = "p-5 footer text-light text-center position-relative">
+    <div class = "container2">
+        <p id = "lead">Copyright &copy; SE 2022 Bootstrap Demo</p>
+        <a href = "#" class = "position-absolute bottom-0 end-0 p-5">
+            <i class = "bi bi-arrow-up-circle h2 icon-white"></i>
+        </a>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

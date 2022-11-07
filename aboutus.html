@@ -1,158 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans" rel="stylesheet" &gt;>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href = "https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans" rel = "stylesheet"&gt;>
+    <link rel="stylesheet" href="css/astyles.css">    
 </head>
 
 <body>
-    <!--Create Collapsible Navbar Menu-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a3cad4;">
-        <div class=container>
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width=100 height=100></a>
-            <!---Hamburger Menu Button-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="work.html">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="history.html">Our Work</a>
-                    </li>
-                    <!---Dropdown Menu-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            About Us
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item shift" href="aboutus.html">Our Team</a>
-                            <a class="dropdown-item shift" href="volunteer.html">Get Involved</a>
-                        </div>
-                    </li>
-                </ul>
+  <!--Create Collapsible Navbar Menu-->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a3cad4;">
+    <div class = container>
+        <a class="navbar-brand" href="index.html"><img src= "img/logo.png" width = 100 height=100></a>
+    <!---Hamburger Menu Button-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="work.html">What We Do</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">Our Work</a>
+        </li>
+        <!---Dropdown Menu-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item shift" href="aboutus.html">Our Team</a>
+              <a class="dropdown-item shift" href="index.html">Get Involved</a>
             </div>
-            <!---Doante Button-->
-            <form>
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front">
-                        <a href="donate.html">Donate Now</a>
-                    </span>
-                </button>
-            </form>
-        </div>
-    </nav>
+          </li>
+      </ul>
+    </div>
+    <!---Donate Button-->
+    <form>
+        <button class = "pushable">
+            <span class = "shadow"></span>
+            <span class = "edge"></span>
+            <span class = "front">
+                <a href="donate.html">Donate Now</a>
+            </span>
+        </button>
+    </form>
+    </div>
+  </nav>
 
-
+ <!---Banner-->
     <div class="banner">
         <div>
-            <h1 id="title">About Us</h1>
+          <h1 id = "title">About Us</h1>
+        </div>  
+      </div>
+
+ <!---Title of Section-->
+      <div  class = "background">
+    <h2 class = "center" id = "titleT">Our Team</h2>
         </div>
-    </div>
 
-    <div class="background">
-        <h2 class="background" id="title2">Our Team</h2>
-    </div class="background">
-
-    <section class="background">
-        <br>
-        <section class="overview text-dark p-2 text-left">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 p-3">
-                        <img class="img-fluid" id="back-img"
-                            src="https://mail.google.com/mail/u/0?ui=2&ik=dbd384c5da&attid=0.1&permmsgid=msg-a:r5813515603193584778&th=1842bc64a473989a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-YmFSxOsQlcKyIV2FA_guphOTzv4hy5KGdJzLCmsO43ZOioVSMEqWjgYcrkMO_cTMf7oQj54xbG5Mrs_JgoQbPD7O_lcdpxFYvyiMGPEQ0VAw1FNl0HLtuNhk&disp=emb&realattid=ii_l9w4y9010"
-                            alt="" width="600" height="600">
-                    </div>
-                    <div class="col-sm-6 p-3">
-                        <h3>Nidhi Nair</h3>
-                        <div>
-                            <h4> Co-Founder<br>
-                                [Board Chairman And Director]</h4>
+    
+ <!---Our bios/images-->
+        <section class = "background">
+            <br class = "background">
+            <section class = "overview text-dark p-2 text-left">
+                <div class = "container">
+                    <!---Nidhi's Row-->
+                    <div class = "row nidhi-animation">
+                        <!---Nidhi Image-->
+                        <div class="col-sm-6 p-3">
+                            <img class = "img-fluid" id = "slide" src = "img/nidhi.png"
+                             alt = "" width = "600" height = "600">
                         </div>
-
-                        <p>Before founding Drop of Life in 2021, Nidhi was a water deliquent that took 2 hour showers.
-                            She did not care about the enviornment at all and was a proud litterer. Her house's water
-                            bill got so bad that her parents shipped her away to nature boot camp. She came back a new
-                            woman. Ever since, she has been on a mission to bring clean water everywhere. Along with two
-                            of her classmates at High Technology High School, she decided to create a nonprofit.
-                        </p>
+                        <!---Nidhi's Bio-->
+                        <div class="col-sm-6 p-3">
+                            <h3 id = "slide1">Nidhi Nair</h3>
+                                <div>
+                                    <h4 id = "slide1"> Co-Founder<br>
+                                        [Board Chairman And Director]</h4>	
+                                </div>
+                            
+                            <p id = "slide1">Before founding Drop of Life in 2021, Nidhi was a water deliquent that took two hour showers. She did not care about the enviornment at all and was a proud litterer. Her house's water bill got so bad that her parents shipped her away to nature boot camp. She came back a new woman. Ever since, she has been on a mission to bring clean water everywhere. Along with two of her classmates at High Technology High School, she decided to create a nonprofit. In her free time, Nidhi likes to watch Charles Leclerc race and horror movies. She also likes to call her best friend Rebecca for three hours at a time. For some godforsaken reason, she loves to chew bubble gum (mint is superior). 
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <!---Rebecca's Row-->
+                    <div class = "row rebecca-animation" id = "rebecca">
+                        <!---Rebecca's Bio-->
+                        <div class="col-sm-6 p-3">
+                            <h3 id = "slide2">Rebecca Wang</h3>
+                                <div>
+                                    <h4 id = "slide2"> Co-Founder<br>
+                                        [Board Secretary And Director]</h4>	
+                                </div>
+                            <p id = "slide2">Rebecca has always had a passion for the enviornment. She has also known Nidhi for practically her whole life. She has first hand witnessed her abuse of water. One day, she snapped and couldn't stand by and do nothing. Rebecca convinced Nidhi's parents to ship her off to nature boot camp. After she returned, they were finally in agreement about their passion for the environment. They decided to found a charity to bring clean water to those who didn't have any. She is currently a junior at High Technology High School. In her free time, Rebecca loves to bike, swim, play soccer, play cards, and hang out with her friends. She calls Nidhi for four hours at a time and roots against Charles Leclerc.
+                            </p>
+                        </div>
+                        <!---Rebecca's Image-->
+                        <div class="col-sm-6 p-3">
+                            <img class = "img-fluid" id = "slide3" src = "img/rebecca.png" alt = "">
+                        </div>
+                    </div>
+                    <br>
+                    <!---Emme's Row-->
+                    <div class = "row emme-animation">
+                          <!---Emme's Image-->
+                        <div class="col-sm-6 p-3">
+                            <img class = "img-fluid" id = "slide4" src = "img/emme.png" alt = "" width = "550" height = "550">
+                        </div>
+                         <!---Emme's Bio-->
+                        <div class="col-sm-6 p-3">
+                            <h3 id = "slide5">Emme Cai</h3>
+                                <div>
+                                    <h4 id = "slide5"> Co-Founder<br>
+                                        [Board Treasurer And Director]</h4>	
+                                </div>
+                            <p id = "slide5">Emme has always loved environmental engineering, and attends the #2 NJ STEM school, High Technology High School. Once hearing about the atrocities Nidhi was commiting, she felt the need to create a charity to sort of balance out all the harm Nidhi was doing. Once Nidhi returned from boot camp with a sudden change of heart, Emme had a great idea: What would be better than a reformed water delinquent cofounding a water charity? Nidhi and Rebecca both loved the idea, and they worked together to make it happen. In her free time, she loves to draw, do fluid dynamics practice problems, and test samples of water in the lab.  
+                                </p>
+                        </div>
                     </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-6 p-3">
-                        <h3>Rebecca Wang</h3>
-                        <div>
-                            <h4> Co-Founder<br>
-                                [Board Secretary And Director]</h4>
-                        </div>
-                        <p>Rebecca has always had a passion for the enviornment. She has also known Nidhi for
-                            practically her whole life. She has first hand witnessed her abuse of water. One day, she
-                            snapped and couldn't stand by and do nothing. Rebecca convinced Nidhi's parents to ship her
-                            off to nature boot camp. After she returned, they were finally in agreement about their
-                            passion for the environment. They decided to found a charity to bring clean water to those
-                            who didn't have any. She is currently a junior at High Technology High School. In her free
-                            time, Rebecca loves to bike, swim, play soccer, play cards, and hang out with her friends.
-                        </p>
-                    </div>
-                    <div class="col-sm-6 p-3">
-                        <img class="img-fluid" id="rat-img"
-                            src="https://mail.google.com/mail/u/0?ui=2&ik=dbd384c5da&attid=0.1&permmsgid=msg-a:r4482151497762442774&th=1842bd313688374d&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9F-aJCluODzMbe6OsmijIAQQkuP_NfabsQwt0lGMeivUBWf_eo6IT3tof4A6ZJ5tRyShlj_FYydhaR0Gryj-ojkPfW4EvLKNU5RR_jOjCeo2TwaMZd5gdv7EA&disp=emb&realattid=ii_l9w5ga5i0"
-                            alt="">
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-6 p-3">
-                        <img class="img-fluid" id="rep-img"
-                            src="https://o.remove.bg/downloads/bffbf726-5567-4536-9430-bc3e8a2a9886/young-girl-avatar-icon-400-251540768-removebg-preview.png"
-                            alt="" width="550" height="550"></a>
-                    </div>
-                    <div class="col-sm-6 p-3">
-                        <h3>Emme Cai</h3>
-                        <div>
-                            <h4> Co-Founder<br>
-                                [Board Treasurer And Director]</h4>
-                        </div>
-                        <p>Emme has always loved environmental engineering, and attends the #2 NJ STEM school, High
-                            Technology High School. In her free time, she loves to draw, do fluid dynamics practice
-                            problems, and test samples of water in the lab.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            </section>
         </section>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
-
-
-        <!--Footer (Requires BootStrap Icon CSS)-->
-        <footer class="p-5 footer text-light text-center position-relative">
-            <div class="container">
-                <p class="lead">Copyright &copy; SE 2022 Bootstrap Demo</p>
-                <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                    <i class="bi bi-arrow-up-circle h2 icon-white"></i>
-                </a>
+        <!---Join Us Section-->
+        <!---Title-->
+        <section class = "joinUs">
+            <!---Volunteer Image-->
+            <img  class = "center" id = "volunteer" src = "img/volunteer.jpeg" alt = "" width = "900" height = "600">
+            <div>
+                <h2 class = "center" id = "title2">Join Us To Make A Life-Changing Impact</h2>
             </div>
-        </footer>
-</body>
+            <br>
+            <div class = "joinUs">
+                <!---Join Us Description-->
+                <p class = "center" id = "help">Together, we can change lives by bringing clean water, handwashing facilities, sanitation and hygiene education to children who lack basic access to clean water. With your help, we can give communities hope, reduce cases of illness, and give children the chance to focus on their education. </p>
+                    <br>
+                <br><br>
+            </div>
 
-</html>
+        </section>
+
+    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+
+
+ <!--Footer (Requires BootStrap Icon CSS)-->
+ <footer class = "p-5 footer text-light text-center position-relative">
+    <div class = "container">
+        <p id = "lead">Copyright &copy; SE 2022 Bootstrap Demo</p>
+        <a href = "#" class = "position-absolute bottom-0 end-0 p-5">
+            <i class = "bi bi-arrow-up-circle h2 icon-white"></i>
+        </a>
+    </div>
+</footer>
+</body></html>
