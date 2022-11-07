@@ -162,7 +162,7 @@ outline: none;
   
 */
   .time {
-    box-sizing: border-box;
+   box-sizing: border-box;
   }
   
   *,
@@ -217,6 +217,7 @@ body {
   left: 33%;
 }
 
+/* CSS for little circles*/
 .container::after {
   content: '';
   position: absolute;
@@ -225,8 +226,8 @@ body {
   top: calc(50% - 8px);
   right: -8px;
   background: #ffffff;
-  border: 2px solid #a3cad4;
-  background: #a3cad4;
+  border: 2px solid #6497d2;
+  background: #6497d2;
   border-radius: 16px;
   z-index: 1;
 }
@@ -243,7 +244,7 @@ body {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #a3cad4;
+  background: #6497d2;
   z-index: 1;
 }
 
@@ -259,7 +260,7 @@ body {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #4188d9;
+  color: #6497d2;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -281,12 +282,12 @@ body {
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #4188d9;
-  border: 2px solid #a3cad4;
+  background: #6497d2;
+  border: 2px solid #6497d2;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #4188d9;
+  color: #6497d2;
   z-index: 1;
 }
 
@@ -298,9 +299,10 @@ body {
   left: 56px;
 }
 
+/* CSS for overall timeline blobs*/
 .container .content {
   padding: 30px 90px 30px 30px;
-  background: #e3ebf9;
+  background: #a3cad4;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -314,7 +316,7 @@ body {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #4188d9;
+  color: #6497d2;
 }
 
 .container .content p {
@@ -376,6 +378,7 @@ body {
 
 /* CSS for smaller Our Story title*/
 #titleH{
+    color:  black;
     padding-top: 35px;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
