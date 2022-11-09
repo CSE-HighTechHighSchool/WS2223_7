@@ -1,0 +1,632 @@
+
+
+/*------------- Tag CSS ----------- */
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+
+/*------------- Class CSS ----------- */
+
+
+.impact{
+text-align:right;
+
+}
+
+.mission{
+margin-left: 60px;
+margin-right: 80px;
+}
+
+/*CSS for History page banner*/
+.banner2 {
+background-image: url("/img/history.jpg");
+width: 2000px;
+height: 1000px;
+}
+
+.footer{
+background-color: #a3cad4;
+font-size: 22px;
+}
+
+/*CSS for centering text*/
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.history{
+color:#4D585D
+}
+
+/*CSS for navbar*/
+.navbar{
+width: 100% /*!important*/;
+padding: 0 /*!important*/;
+}
+
+.nav-item{
+margin-right: 50px /*!important*/;
+font-size: 20px /*!important*/;
+margin-left: 50px /*!important*/;
+font-size: 25px /*!important*/;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+color: #4D585D;
+}
+
+.dropdown-item{
+font-size: 20px /*!important*/;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+color:#4D585D
+}
+
+.dropdown-item:active{
+background-color: #39bac8;
+}
+
+/*CSS for 3d "Donate Now" Button*/
+.pushable {
+position: relative;
+border: none;
+background: transparent;
+padding: 0;
+cursor: pointer;
+outline-offset: 4px;
+transition: filter 250ms;
+}
+.shadow {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 12px;
+background: rgba(213, 236, 255, 0.25);
+will-change: transform;
+transform: translateY(2px);
+transition:
+transform
+600ms
+cubic-bezier(.3, .7, .4, 1);
+}
+.edge {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 12px;
+background: linear-gradient(
+to left,
+hsl(340deg 100% 16%) 0%,
+#cff8fc
+#b4f6fd,
+hsl(340deg 100% 16%) 100%
+);
+}
+.front {
+display: block;
+position: relative;
+padding: 12px 42px;
+border-radius: 12px;
+font-size: 25px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+color: #4D585D;
+background: #aae7ee;
+will-change: transform;
+transform: translateY(-4px);
+transition:
+transform
+600ms
+cubic-bezier(.3, .7, .4, 1);
+}
+.pushable:hover {
+filter: brightness(110%);
+}
+.pushable:hover .front {
+transform: translateY(-6px);
+transition:
+transform
+250ms
+cubic-bezier(.3, .7, .4, 1.5);
+}
+.pushable:active .front {
+transform: translateY(-2px);
+transition: transform 34ms;
+}
+.pushable:hover .shadow {
+transform: translateY(4px);
+transition:
+transform
+250ms
+cubic-bezier(.3, .7, .4, 1.5);
+}
+.pushable:active .shadow {
+transform: translateY(1px);
+transition: transform 34ms;
+}
+.pushable:focus:not(:focus-visible) {
+outline: none;
+}
+
+
+/*CSS of Timeline*/
+
+*/
+.time {
+ box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: 'Work Sans', Helvetica, sans-serif;
+background: #ffffff;
+}
+
+.timeline {
+position: relative;
+width: 100%;
+max-width: 1140px;
+/*margin: 0 auto;*/
+padding: 15px 0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*line in middle of timeline*/
+.timeline::after {
+content: '';
+position: absolute;
+width: 2px;
+background: #4188d9;
+top: 0;
+bottom: 0;
+left: 50%;
+margin-left: -1px;
+padding-bottom: 30px;
+}
+
+/*space between blurbs*/
+#time.container {
+padding: 15px 30px;
+position: relative;
+background: inherit;
+width: 50%;
+}
+
+#time.container.left {
+right: 33%;
+}
+
+#time.container.right {
+left: 33%;
+}
+
+/* CSS for little circles*/
+#time.container::after {
+content: '';
+position: absolute;
+width: 16px;
+height: 16px;
+top: calc(50% - 8px);
+right: -8px;
+background: #ffffff;
+border: 2px solid #6497d2;
+background: #6497d2;
+border-radius: 16px;
+z-index: 1;
+}
+/* CSS for position of little circles*/
+#time.container.right::after {
+left: -8px;
+}
+
+/* CSS for arrow/lines to timeline*/
+#time.container::before {
+content: '';
+position: absolute;
+width: 50px;
+height: 2px;
+top: calc(50% - 1px);
+right: 8px;
+background: #6497d2;
+z-index: 1;
+}
+
+#time.container.right::before {
+left: 8px;
+}
+
+/* CSS for date to timeline*/
+#time.container .date {
+position: absolute;
+display: inline-block;
+top: calc(50% - 8px);
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+color: #6497d2;
+text-transform: uppercase;
+letter-spacing: 1px;
+z-index: 1;
+}
+
+#time.container.left .date {
+right: -75px;
+}
+
+#time.container.right .date {
+left: -75px;
+}
+
+/* CSS for big circles for timeline*/
+#time.container .icon {
+position: absolute;
+display: inline-block;
+width: 40px;
+height: 40px;
+padding: 9px 0;
+top: calc(50% - 20px);
+background: #6497d2;
+border: 2px solid #6497d2;
+border-radius: 40px;
+text-align: center;
+font-size: 18px;
+color: #6497d2;
+z-index: 1;
+}
+
+#time.container.left .icon {
+right: 56px;
+}
+
+#time.container.right .icon {
+left: 56px;
+}
+
+/* CSS for overall timeline blobs*/
+#time.container .content {
+padding: 30px 90px 30px 30px;
+background: #a3cad4;
+position: relative;
+border-radius: 0 500px 500px 0;
+}
+
+#time.container.right .content {
+padding: 30px 30px 30px 90px;
+border-radius: 500px 0 0 500px;
+}
+
+/* CSS for timeline titles*/
+#time.container .content h2 {
+margin: 0 0 10px 0;
+font-size: 18px;
+font-weight: normal;
+color: white;
+}
+
+/* CSS for timeline body text*/
+#time.container .content p {
+margin: 0;
+font-size: 16px;
+line-height: 22px;
+color: white;
+}
+
+@media (max-width: 767.98px) {
+.timeline::after {
+  left: 90px;
+}
+
+#time.container {
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 30px;
+}
+
+#time.container.right {
+  left: 0%;
+}
+
+#time.container.left::after, 
+#time.container.right::after {
+  left: 50ppx;
+}
+
+
+
+#time.container.left .date,
+#time.container.right .date {
+  right: auto;
+  left: 15px;
+}
+
+#time.container.left .icon,
+#time.container.right .icon {
+  right: auto;
+  left: 146px;
+}
+
+#time.container.left .content,
+#time.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+}
+
+/*------------- ID CSS ----------- */
+
+/* CSS for footer text*/
+#lead{
+  color:  #4D585D;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+/* CSS for smaller Our Story title*/
+#titleH{
+  color:  black;
+  padding-top: 35px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* CSS for big Our Mission/History title on banner*/
+#title3{
+  padding-top: 450px;
+  padding-left: 340px;
+  font-size: 105px;
+  color: white;
+}
+
+/* CSS for two images on timeline*/
+#impact-img{
+padding-left: 90px;
+padding-top: 10px;
+}
+
+/*Formatiing for mission block quote*/
+#blockquote {
+background: #f9f9f9;
+border-left: 10px solid #a3cad4;
+margin: 1.5em 10px;
+padding: 0.5em 10px;
+quotes: "\201C""\201D""\2018""\2019";
+}
+#blockquote:before {
+color: #a3cad4;
+content: open-quote;
+font-size: 4em;
+line-height: 0.1em;
+margin-right: 0.25em;
+vertical-align: -0.4em;
+}
+#blockquote h3 {
+display: inline;
+}
+
+/*------ CSS for Footer------*/
+
+footer{
+  position: relative;
+  bottom: 0px;
+}
+.footer-distributed{
+	background:#64aeb7;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+  font-family: 'Montserrat';
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+  background-color:  #080707;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+
+i.bi-arrow-up-circle{
+  color: white;
+}
+
+/* Appear on Scroll Animation*/  
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}

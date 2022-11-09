@@ -11,10 +11,15 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/styles.css"> 
+    <link rel="stylesheet" href="/css/footer.css"> 
     <!--Import Monterserrat as a Title Font and Work Sans as a body font-->
    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet"&gt;> 
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
-</head>    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script type="text/javascript" src="js/mapdata.js"></script>
+   <script  type="text/javascript" src="js/worldmap.js"></script>	
+</head> 
+<body>   
     <!--Create Collapsible Navbar Menu-->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a3cad4;">
         <div class = container>
@@ -27,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Our Mission/History</a>
+              <a class="nav-link" href="history.html">Our Mission/History</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="ourwork.html">Our Work</a>
@@ -39,8 +44,8 @@
                  About Us
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item shift" href="index.html">Our Team</a>
-                  <a class="dropdown-item shift" href="index.html">Join Us</a>
+                  <a class="dropdown-item shift" href="aboutus.html#ourteam">Our Team</a>
+                  <a class="dropdown-item shift" href="aboutus.html#joinUs">Join Us</a>
                 </div>
               </li>
           </ul>
@@ -60,15 +65,14 @@
     <!--Banner-->
     <div class="banner">
         <div>
-            <h1 id = "title">OUR WORK</h1>
+            <h1 id = "title" class = "center">OUR WORK</h1>
         </div>  
     </div>
-    <body>
     <!--Our Work Description-->
     <div class = "work">
         <div class="row work-row" style="height: 300px;">
             <div class = "col-sm-12 d-flex align-items-center" style = "background-color: #F1F6FD">
-            <p id="work-title">Our Work</p>
+            <p id="work-title" class = "center">Our Work</p>
             </div>
         </div>
         <div class="row work-row" style="height: 100px;">
@@ -81,16 +85,88 @@
             <img class = "work-image" src = "https://miro.medium.com/max/12000/1*4jzyr1xxasP694CmOXINtw.jpeg">
           </div>
         </div>
-            <!--Our Work Statistics-->
+            <!--Our Work Statistics & Map-->
         <div class = "statistics reveal">
-           <script src="js/reveal.js" type="module"></script>
-           <img src="img/statistics.png">
+          <h1 class = "center" id = "statistics-title">Statistics</h1>
+           <script src="js/reveal.js" type="module"></script> <!-- JS to animate up from bottom-->
+           <img src="img/statistics.png"> <!-- Insert Three Icons-->
            <div class="value people" akhi="8000000">0</div>
            <div class="value gallons" akhi="200000">0</div>
            <div class="value wells" akhi="16000">0</div>
-           <script src="js/count.js" type="module"></script>
-      
+           <script src="js/count.js" type="module"></script> <!-- Import JS for Count Statistics Map-->
+           <h1 class = "center" id = "geography-title">Where We Work</h1>
+           <script src="js/map.js" type="module"></script> <!-- Import JS for Interactive Map-->
+           <div id="map"></div> <!-- Insert Interactive Map-->
+           <p class = "paragraph peoplepara">people provided clean <br>water access</p>
+           <p class = "gallonspara">gallons of clean water <br>distributed to those in<br> need</p>
+           <p class = "wellspara">clean water wells <br>built</p>
+        </div>
+      <!---Footer-->
 
+      <footer class="footer-distributed" style = "position: relative; top:300px;">
+        <div class="footer-left">
+  
+          <h3 style = "font-family: 'Montserrat';">Drop of Life</h3>
+  
+          <p class="footer-links" style = "font-family: 'Work Sans';">
+            <a href="index.html" class="link-1">Home</a>
+            
+            <a href="#">Our Mission/History</a>
+          
+            <a href="ourwork.html">Our Work</a>
+          
+            <a href="aboutus.html">About Us</a>
+            
+            <a href="https://www.gofundme.com/f/geb7f5-charity-water/donate?utm_source=widget&utm_medium=referral&utm_campaign=p_cp+share-sheet">Donate Now</a>
+            
+          </p>
+  
+          <p class="footer-company-name" style = "font-weight: bold">Drop Of Life © 2022</p>
+        </div>
+  
+        <div class="footer-center">
+  
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p style = "font-family: 'Work Sans'; font-weight: 700px;"><span>765 Newman Springs Road</span> Lincroft, NJ</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p style = "font-family: 'Work Sans'; font-weight: 700px;">+(732) 842-8444</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p style = "text-decoration: underline; font-family: 'Work Sans'; font-weight: 700px;">support@dropoflife.org</p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+  
+          <p class="footer-company-about" style = "font-family: 'Work Sans'; font-weight: bold;">
+            <span>About the company</span>
+            <span>Drop of Life is a 501(c)3 non-profit organization helping to provide clean water</span>
+          </p>
+  
+          <div class="footer-icons">
+  
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+  
+          </div>
+  
+        </div> 
+        <a href = "#" class = "position-absolute bottom-0 end-0 p-5">
+          <i class = "bi bi-arrow-up-circle h2 icon-white"></i>
+      </a>
+      </footer>
+    
+    
+  </body>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 

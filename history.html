@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop of Life</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/history.css"> 
+    <link rel="stylesheet" href="/css/arrow.css"> 
+    <link rel="stylesheet" href="/css/footer.css"> 
+    <!--Import Monterserrat as a Title Font and Work Sans as a body font-->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet"&gt;> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="js/reveal.js" type="module"></script> <!-- JS to animate up from bottom-->
+</head>
+<body>
+   <!--Create Collapsible Navbar Menu-->
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a3cad4;">
+    <div class = container>
+        <a class="navbar-brand" href="index.html"><img src= "img/logo.png" width = 100 height=100></a>
+    <!---Hamburger Menu Button-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">Our Mission/History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ourwork.html">Our Work</a>
+          
+        </li>
+        <!---Dropdown Menu-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item shift" href="aboutus.html#ourteam">Our Team</a>
+              <a class="dropdown-item shift" href="aboutus.html#joinUs">Join Us</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+    <!---Donate Button-->
+    <form>
+      <button class = "pushable">
+          <span class = "shadow"></span>
+          <span class = "edge"></span>
+          <span class = "front">
+            <a href = "https://www.gofundme.com/f/geb7f5-charity-water/donate?utm_source=widget&utm_medium=referral&utm_campaign=p_cp+share-sheet" style = "text-decoration: none; color: #4D585D;">Donate Now</a>
+          </span>
+      </button>
+  </form>
+  </div>
+</nav>
+
+       <!---Banner-->
+       <section class = "banner2">
+      <div class="banner2">
+        <div>
+          <h1 id = "title3">Our Mission/History</h1>
+        </div>  
+      </div>
+      </section>
+
+      <!--Mission Statement-->
+  <section class="mission">
+    <div class="containers">
+        <div class="row text-center">
+            <h2 id = "titleH">
+                Our Mission
+            </h2>
+            
+            <h3 id = "blockquote"><br><em>To improve the health and overall lives of people in the world’s most impoverished communities through providing access to safe drinking water, sanitation, and hygiene education.</em></h3>
+        </div>
+        <br> <!--Line break-->
+    </div>
+</section> 
+
+  <!--Title of next section-->
+  <section class="history">
+    <div class="containers">
+        <div class="row text-center">
+            <h2 id = "titleH">
+                Our Story
+            </h2>
+        </div>
+        <br> <!--Line break-->
+    </div>
+</section> 
+   
+ <!--Timeline-->
+    <section> 
+      <div class="timeline">
+        <!--First Element of Timeline (Left)-->
+        <div class="container left reveal" id = "time">
+          <div class="date">Dec '20</div>
+          <i class="icon fa fa-home"></i>
+          <div class="content">
+            <h2>Initial Brainstorming</h2>
+            <p>
+              Our founders were three young girls who had a passion for engineering and the desire to make a lasting impact in the world.
+              One glaring issue then an now is a shortage of clean water around the world. They decided to found a charity to bring what the believed was a basic necesity to less fortunate people around the world.
+            </p>
+            <br>
+            <img src = "/img/brainstorm.jpg" alt = "">
+          </div>
+        </div> 
+        <!--Second Element of Timeline (Right)-->
+        <div class="container right reveal" id = "time">
+          <div class="date">Jun '21</div>
+          <i class="icon fa fa-gift"></i>
+          <div class="content">
+            <h2 class = "impact">Establishment</h2>
+            <p class = "impact">
+              Drop of Life was officially established and approved on June 20, 2021. We got to work immediately, starting our first projects in the United States and Mexico. Our sponsors helped fund water, sanitation, and hygiene programs for rural communities. 
+            </p>
+            <img class = "impact" id = "impact-img" src = "/img/establishment.jpg" alt = "">
+          </div>
+        </div> 
+        <!--Third Element of Timeline (Left)-->
+        <div class="container left reveal" id = "time">
+          <div class="date">Apr '22</div>
+          <i class="icon fa fa-user"></i>
+          <div class="content">
+            <h2>Recognition</h2>
+            <p>
+              In April, we were honored to receive the 2022 Best New Charity Award from the Charity Times Awards and the Third Sector Awards. This helped us gain recognition, and expand our projects to Latin America, Sub-Saharan Africa, and Asia.
+            </p>
+            <br>
+            <img src = "/img/awards.png" alt = "">
+          </div>
+        </div>
+        <!--Fourth Element of Timeline (Right)-->
+        <div class="container right reveal" id = "time">
+          <div class="date">Pres.</div>
+          <i class="icon fa fa-running"></i>
+          <div class="content">
+            <h2 class = "impact">Our Growing Impact</h2>
+            <p class = "impact">
+              From then, we've grown into a sizeable community of volunteers and have taken a large step in providing clean water to all. We operate in multiple countries and have thousands of volunteers. Ever since 2020, we've been working towards one goal, and one goal only: ending the global water crisis. 
+                    We hope that others around the world understand our cause and rally against the global water shortage with us.
+            </p>
+            <img class = "impact" id = "impact-img" src = "/img/impact.jpg" alt = "">
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+
+    <!---Footer-->
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3 style = "font-family: 'Montserrat';">Drop of Life</h3>
+
+        <p class="footer-links" style = "font-family: 'Work Sans';">
+          <a href="index.html" class="link-1">Home</a>
+          
+          <a href="#">Our Mission/History</a>
+        
+          <a href="ourwork.html">Our Work</a>
+        
+          <a href="aboutus.html">About Us</a>
+          
+          <a href="https://www.gofundme.com/f/geb7f5-charity-water/donate?utm_source=widget&utm_medium=referral&utm_campaign=p_cp+share-sheet">Donate Now</a>
+          
+        </p>
+
+        <p class="footer-company-name" style = "font-weight: bold">Drop Of Life © 2022</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p style = "font-family: 'Work Sans'; font-weight: 700px;"><span>765 Newman Springs Road</span> Lincroft, NJ</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p style = "font-family: 'Work Sans'; font-weight: 700px;">+(732) 842-8444</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p style = "text-decoration: underline; font-family: 'Work Sans'; font-weight: 700px;">support@dropoflife.org</p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about" style = "font-family: 'Work Sans'; font-weight: bold;">
+          <span>About the company</span>
+          <span>Drop of Life is a 501(c)3 non-profit organization helping to provide clean water</span>
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+      <a href = "#" class = "position-absolute bottom-0 end-0 p-5">
+        <i class = "bi bi-arrow-up-circle h2 icon-white"></i>
+    </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
