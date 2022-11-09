@@ -403,7 +403,7 @@ iframe{
   }
 
   .banner {
-    background-image: url("/img/historybanner.jpg"); 
+    background-image: url("img/historybanner.jpg"); 
     width: 2000px;
     height: 700px;
 }
