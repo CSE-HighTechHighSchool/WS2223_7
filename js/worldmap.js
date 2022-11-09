@@ -1,3 +1,6 @@
+//JS For Interactive Map
+
+
 /*Copyright 2010-2022 Simplemaps.com
 html5worldmapv4.212 - trial version
 Use pursuant to license agreement at https://simplemaps.com/license */

@@ -1,6 +1,4 @@
 
-/*------------- Class CSS ----------- */
-
 /*CSS for navbar*/
 .navbar{
     width: 100% !important;
@@ -294,7 +292,7 @@ p#description-text{
   }
   
 
-
+/*CSS for video*/
 iframe{
     position: relative;
     bottom: 33rem;
@@ -307,7 +305,7 @@ iframe{
     right: 600px;
     bottom: 350px;
   }
-
+/*CSS for statistic bubbles*/
   .image-bubbles{
     width: 35%;
     height: 35%;
@@ -325,9 +323,7 @@ iframe{
     z-index:5;
     opacity:0;
   }
-  .people-description:hover{
-    opacity:1;
-  }
+
   .community-bubble{
     bottom: 84rem;
     right: 20rem;
@@ -354,7 +350,7 @@ iframe{
     margin-right: 30%;
     font-size: 35px;
   }
-   /* Appear on Scroll Animation*/  
+   /* Appear upward on Scroll Animation*/  
   .reveal{
     position: relative;
     transform: translateY(150px);
@@ -401,14 +397,14 @@ iframe{
     margin-right: 45%;
     font-size: 40px;
   }
-
+/*Banner for Our Work page*/
   .banner {
     background-image: url("img/historybanner.jpg"); 
     width: 2000px;
     height: 700px;
 }
  
-
+/*Title for Our Work Page*/
 #title{
   /*padding-left: 625px;*/
   padding-top: 250px;
@@ -417,6 +413,7 @@ iframe{
   font-family: 'Montserrat';
   text-transform: uppercase;
 }
+/*CSS for Work Description/Image Section*/
 .work-image{
   width: 700px;
   height:450px;
@@ -439,6 +436,7 @@ iframe{
   font-family: 'Montserrat', sans-serif;
 }
 
+/*CSS for Statistics/Figures Section*/
 .statistics img{
   position: relative;
   top: 400px;
@@ -473,10 +471,6 @@ iframe{
   color:#64aeb7;
 }
 
-#map{
-  position: relative;
-  top:600px;
-}
 
 #statistics-title{
   position: relative;
@@ -506,7 +500,7 @@ iframe{
   font-size: 30px;
   font-family: 'Montserrat';
 }
-
+/*CSS class to center content*/
 .center {
   display: block;
   margin-left: auto;
@@ -514,6 +508,11 @@ iframe{
   text-align: center;
   }
 
+/*CSS Interactive Map Section*/
+#map{
+  position: relative;
+  top:600px;
+}
   #geography-title{
     position: relative;
     top: 550px;

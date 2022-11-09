@@ -1,3 +1,5 @@
+//JS For Spinning Globe
+
 import createGlobe from 'https://cdn.skypack.dev/cobe'
 
 let phi = 0

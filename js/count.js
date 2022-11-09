@@ -1,3 +1,5 @@
+//JS For Count Animation
+
 const counters = document.querySelectorAll('.value');
 const speed = 800;
 

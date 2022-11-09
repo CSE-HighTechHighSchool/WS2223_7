@@ -1,3 +1,4 @@
+//JS For Interactive Map
 var simplemaps_worldmap_mapdata={
   main_settings: {
     //General settings
