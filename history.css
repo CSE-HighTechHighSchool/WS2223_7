@@ -28,7 +28,7 @@ margin-right: 80px;
 
 /*CSS for History page banner*/
 .banner2 {
-background-image: url("img/history.jpg");
+background-image: url("../img/history.jpg");
 width: 2000px;
 height: 1000px;
 }
