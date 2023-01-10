@@ -42,7 +42,7 @@ color:rgb(82, 81, 81);
 
 .banner {
   background-image: url("img/aboutus.jpg"); 
-  width: 2000px;
+  width: 100%;
   height: 850px;
 }
 
@@ -67,6 +67,7 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 }
+
 
 .joinUs{
 background-color: white;
@@ -261,10 +262,13 @@ bottom: 600px;
 
 /* CSS formatting About Us Title*/
 #title{
-  padding-left: 670px;
   padding-top: 350px;
   font-size: 120px;
   color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* CSS formatting Our Team Title*/
@@ -288,114 +292,8 @@ bottom: 600px;
   width: 58%;
 }
 
-/* CSS for Nidhi's image sliding in from left*/
 
-#slide {
-  position: relative;
-  left: -1000px;
-  -webkit-animation: slide 1.5s forwards;
-  -webkit-animation-delay: 1s;
-  animation: slide 1.5s forwards;
-  animation-delay: 1.5s;
-}
 
-@-webkit-keyframes slide {
-  100% { left: 30; }
-}
-
-@keyframes slide {
-  100% { left: 0; }
-}
-
-/* CSS for Nidhi's bio sliding in from right*/
-#slide1 {
-  position: relative;
-  left: 1000px;
-  -webkit-animation: slide 1.5s forwards;
-  -webkit-animation-delay: 1s;
-  animation: slide 1.5s forwards;
-  animation-delay: 1.5s;
-}
-
-@-webkit-keyframes slide1 {
-  100% { right: 30; }
-}
-
-@keyframes slide1 {
-  100% { right: 0; }
-}
-
-/* CSS for Rebecca's bio sliding in from left*/
-#slide2 {
-  position: relative;
-  left: -1000px;
-  -webkit-animation: slide 1.5s forwards;
-  -webkit-animation-delay: 3.3s;
-  animation: slide 1.5s forwards;
-  animation-delay: 3.3s;
-}
-
-@-webkit-keyframes slide2 {
-  100% { left: 30; }
-}
-
-@keyframes slide2 {
-  100% { left: 0; }
-}
-
-/* CSS for Rebecca's photo sliding in from right*/
-#slide3 {
-  position: relative;
-  left: 1000px;
-  -webkit-animation: slide 1.5s forwards;
-  -webkit-animation-delay: 3.3s;
-  animation: slide 1.5s forwards;
-  animation-delay: 3.3s;
-}
-
-@-webkit-keyframes slide3 {
-  100% { right: 30; }
-}
-
-@keyframes slide3 {
-  100% { right: 0; }
-}
-
-/* CSS for Emme's image sliding in from left*/
-#slide4 {
-  position: relative;
-  left: -1000px;
-  -webkit-animation: slide 1.5s forwards;
-  -webkit-animation-delay: 4.6s;
-  animation: slide 1.5s forwards;
-  animation-delay: 4.6s;
-}
-
-@-webkit-keyframes slide4 {
-  100% { left: 30; }
-}
-
-@keyframes slide4 {
-  100% { left: 0; }
-}
-
-/* CSS for Emme's bio sliding in from right*/
-#slide5 {
-  position: relative;
-  left: 1000px;
-  -webkit-animation: slide 1.5s forwards;
-  -webkit-animation-delay: 4.6s;
-  animation: slide 1.5s forwards;
-  animation-delay: 4.6s;
-}
-
-@-webkit-keyframes slide5 {
-  100% { right: 30; }
-}
-
-@keyframes slide5 {
-  100% { right: 0; }
-}
 
 
 .rw-wrapper{
@@ -485,3 +383,4 @@ bottom: 600px;
   font-family: 'Work Sans';
   font-size: 20px;
 }
+
