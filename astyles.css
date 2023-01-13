@@ -305,8 +305,10 @@ bottom: 600px;
 }
 
 .rw-sentence{
-	margin: 0;
-	text-align: left;
+	display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
 .rw-sentence span{
@@ -374,7 +376,6 @@ bottom: 600px;
 .rw-wrapper{
   position: relative;
   bottom: 100px;
-  left: 270px;
 }
 
 #joinus-description{
